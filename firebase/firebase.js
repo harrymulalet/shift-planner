@@ -26,13 +26,6 @@ import { getStorage } from 'firebase/storage';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCE2L_gxup1jQPAJyuX5isACdUuYuS-UIQ",
-  authDomain: "hammonia-taxi-schichtplaner.firebaseapp.com",
-  projectId: "hammonia-taxi-schichtplaner",
-  storageBucket: "hammonia-taxi-schichtplaner.appspot.com",
-  messagingSenderId: "891233839451",
-  appId: "1:891233839451:web:61b7b1f690f9964a15127e",
-  measurementId: "G-EXL1S5GQ2C"
 };
 
 export const app = initializeApp(firebaseConfig);
