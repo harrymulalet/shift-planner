@@ -20,7 +20,7 @@ import { deleteObject, getDownloadURL as getStorageDownloadURL, ref, uploadBytes
 import { storage } from './firebase';
  
 // Bucket URL from Storage in Firebase Console
-const BUCKET_URL = "gs://hammonia-taxi-schichtplaner.appspot.com";
+const BUCKET_URL = "";
  
 // Uploads image and returns the storage bucket
 export async function uploadImage(image, uid) {
